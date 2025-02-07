@@ -1,12 +1,26 @@
-# AcademyManager_WEB
+# 아카데미 다이어리
+학원 대표와 강사, 학생과 학부모 모두를 위한 학원 관리 서비스
 
-## How to Start
+<br/>
 
-quick start with commands below🧡
+## 서비스 구분
+1. 학원 대표 및 강사용 웹 서비스 (v)
+2. 학생 및 학부모용 모바일 앱 서비스
 
-```bash
-git clone https://github.com/2024-summer-project/AcademyManager_WEB.git
-cd ./AcademyManager_WEB
-npm install
-npm run dev
-```
+*이 레포지토리는 1번에 해당
+  
+<br/>
+
+## 주요 기능
+
+- 학원 대표: 구성원 관리, 강의 관리, 학원비 관리, 전체 공지
+- 학원 강사: 강의 관리(퀴즈 생성, 성적 관리, 수강생 관리, 강의 공지) / 학생 상담 / 전체 공지 (열람)
+- 학생/학부모: 퀴즈 풀기, 성적 확인, 공지 확인, 채팅 상담, 학원비 청구서 및 납부 현황 확인
+
+<br/>
+
+## 기술 스택
+- 웹 프론트엔드: React.js, Vite, Tanstack-Query(React-Query), Zustand
+- 모바일: Flutter
+- 백엔드: Express.js, Prisma, Mongo DB
+- 협업: Figma, Notion, Discord
